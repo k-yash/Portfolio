@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,44 +19,47 @@
     <h1>This is the biggest text</h1>
     <h2>This is the second biggesr</h2>
     <p>This is the normsal text this is a free flowing and will wrap like a normal paragraph</p>
+    <p>This paragraph will have <strong>bold</strong> text.</p>
     <small>This is relatively smaeller text</small>
+
     <hr>
 
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and will go till the end of the page</div>
+    <div class="container ">This is a fluid container and will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
     <hr>
 
     <h2>@links</h2>
-    <a href="https://google.com">Primary Link</a>
-    <a href="https://google.com">Secondary Link</a>
+    <a class=" link link-primary"  href="https://google.com">Primary Link</a>
+    <a class=" link link-secondary"  href="https://google.com">Secondary Link</a>
     <hr>
 
     <h2>@List</h2>
     <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
+    <ul class="list-non-bullet">
 
-        <li>Inline Item one</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
 
     </ul>
 
     <h3>reversed ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>egg</li>
         <li>break</li>
