@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200;1,400&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.head{
+    /* padding: 2rem; */
+    
+}
+.head .head-heading{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.head .head-small{
+    display: block;
+    color: rgb(65, 153, 57);
+    font-weight: 600;
+    max-width: 775px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.head .head-img{
+    max-width: 775px;
+    display: block;
+    margin: auto;
+}
+.container-center {
+    font-size: 1.4rem;
+    max-width: 782px;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+
+}
+
+/* section */
+
+.section{
+    margin: auto;
+    max-width: 782px;
+}
+ .ow{
+    background: #dddfe2;
+    max-width: 770px;
+    margin: auto;
+}
+.section h2 {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    padding: 1rem;
+    padding-bottom: 0px;
+}
+.section .section-list{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.section .section-para{
+    font-size: 1.4rem;
+    padding-top: 0px;
+    padding-left:1rem;
+}
+.section .section-img{
+   padding-top: 2rem;
+    max-width: 770px;
+}
