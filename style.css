@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
 
 :root {
-    --primary-color: #7c3aed;
+    --primary-color: #E94B3CFF;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray:#2D2926FF;
 }
 
 body {
@@ -22,6 +22,12 @@ hr {
 
 .container-center {
     max-width: 600px;
+    margin: auto;
+
+}
+
+.container-center-proj {
+    max-width: 900px;
     margin: auto;
 
 }
@@ -138,3 +144,5 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+
+
