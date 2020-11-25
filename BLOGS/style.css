@@ -23,7 +23,9 @@ body{
 }
 
 .head .head-img{
-    max-width: 775px;
+    /* max-width: 350px; */
+    max-width: 350px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -43,17 +45,18 @@ body{
     max-width: 782px;
 }
  .ows{
-    background: #dddfe2;
+    background: #ecedf0;
     max-width: 770px;
     margin: auto;
+    
 }
-.section h2 {
-    margin-top: 2rem;
+ h2 {
+    margin-top: 1rem;
     margin-bottom: 0px;
-    padding: 1rem;
+    padding: 2rem;
     padding-bottom: 0px;
 }
-.section .section-list{
+.section-list{
     padding-bottom: 1rem;
     font-size: 1.4rem;
 
@@ -61,10 +64,16 @@ body{
 
 .section-para{
     font-size: 1.4rem;
-    padding-top: 0px;
+    padding-top: .5rem;
     padding-left:1rem;
+    padding-bottom: .5rem;
 }
-.section .section-img{
+ .section-img{
    padding-top: 2rem;
-    max-width: 770px;
+   padding-bottom: 2rem;
+   display: block;
+   margin: auto;
+    /* max-width: 770px; */
+    max-width: 400px;
+    /* width: 100%; */
 }
