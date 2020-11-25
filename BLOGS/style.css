@@ -27,7 +27,7 @@ body{
     display: block;
     margin: auto;
 }
-.container-center {
+.container-centers {
     font-size: 1.4rem;
     max-width: 782px;
     margin: auto;
@@ -38,11 +38,11 @@ body{
 
 /* section */
 
-.section{
+.sectiono{
     margin: auto;
     max-width: 782px;
 }
- .ow{
+ .ows{
     background: #dddfe2;
     max-width: 770px;
     margin: auto;
@@ -55,11 +55,11 @@ body{
 }
 .section .section-list{
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
 }
 
-.section .section-para{
+.section-para{
     font-size: 1.4rem;
     padding-top: 0px;
     padding-left:1rem;

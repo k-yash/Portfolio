@@ -41,12 +41,20 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    font-size: 1.1rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+.link-git{
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
 }
 
 .list-non-bullet {
