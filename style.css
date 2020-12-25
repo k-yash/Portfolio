@@ -119,6 +119,10 @@ hr {
 }
 
 /* section  */
+ol li{
+    margin-bottom: 3.5rem;
+}
+
 .section{
     padding: 2rem;
     max-width: 967px;
