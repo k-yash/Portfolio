@@ -94,6 +94,8 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
 }
 
 /* header */
